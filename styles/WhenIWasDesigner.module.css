@@ -1,0 +1,102 @@
+.webPortfolio {
+  background-image: url("../public/ink/ink7_LQ.jpeg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50vw;
+  margin-bottom: 6vh;
+}
+
+.btn {
+  background-color: transparent;
+  width: 12vw;
+  height: 4vh;
+  color: rgb(181, 181, 181);
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-family: 'Din next', sans-serif;
+  font-size: 2vh;
+  font-weight: 500;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.btn:hover {
+  border: 1px solid rgb(181, 181, 181);
+  color: rgb(83, 83, 83);
+}
+
+.logoVilleneuve {
+  margin-top: 10vh;
+  color: white;
+  font-family: 'Din next', sans-serif;
+  font-size: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.theo {
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+}
+
+.villeneuve {
+  margin: 0;
+  padding: 0;
+  font-size: 7vh;
+  font-weight: 700;
+}
+
+/* Affichage conditionné à la taille d'écran */
+@media screen and (max-width: 768px) {
+.logoVilleneuve {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.theo {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Din next', sans-serif;
+  font-size: 5vh;
+  font-weight: 200;
+}
+
+.villeneuve {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Din next', sans-serif;
+  font-size: 5vh;
+  font-weight: 700;
+}
+}

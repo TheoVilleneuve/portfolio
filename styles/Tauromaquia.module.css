@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modele {
+    margin-top: 20vh;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+}
+
+.titleContainer {
+    position: absolute;
+    color: black;
+    font-size: 9vh;
+}
+.titleTauro {
+    margin: 0;
+    padding: 0;
+    font-family: 'Din next', sans-serif;
+    font-weight: 700;
+}
+
+.titleMaquia {
+    margin: 0;
+    padding: 0;
+    font-family: 'Din next', sans-serif;
+    font-weight: 200;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10vw;
+    height: 5vh;
+    width: 100vw;
+    color: black;
+    font-family: 'Din next', sans-serif;
+    font-weight: 700;
+    margin: 0 0 4vh O;  
+}
+
+.backgroundVideo {
+    margin: 14vh 0;
+    height: 75vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nimeno {
+    margin: 10vh 0;
+}
+
+.imgContainer {
+    height: auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imgFrameBen {
+    height: 80vh;
+    width: 54vh;
+    font-size: 4vh;
+    margin-bottom: 4vh;    
+}
+
+.imgFrameInspi {
+    width: 25vw;
+    height: 25vw;
+    margin-bottom: 5vh; 
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;400;700&display=swap');
+@font-face {
+    font-family: 'Din next';
+    src: url('/myapp/fonts/din-next-lt-pro-bold-59fa0d5149473.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Din next';
+    src: url('/myapp/fonts/din-next-lt-pro-light-59f9bcb6633e7.otf') format('opentype');
+    font-weight: light;
+    font-style: normal;
+  }
+
+.part1 {
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100vw;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoTheo {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    justify-content: center;
+    align-items: center;  
+}
+
+.logoImg {
+    height: 35vw;
+    width: 35vw;
+}
+
+.btnContainer {
+    background-color: crimson;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 6vh;
+  }
+
+.btn {
+    background-color: black;
+    width: 14vw;
+    height: 6vh;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-family: 'Din next', sans-serif;
+    font-size: 2vh;
+    font-weight: 500;
+    cursor: pointer;
+    transition-duration: 1s;
+  }
+  
+  .btn:hover {
+    border: 1px solid black;
+    color: black;
+    background-color: transparent;
+  }
+
+  .textContainer {
+    background-color: olive;
+    width: 45vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+  }
+
+  #h1 {
+    font-family: 'Din next', sans-serif;
+    font-size: 2vh;
+    font-weight: 500;
+
+  }

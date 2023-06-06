@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;400;700&display=swap');
+@font-face {
+    font-family: 'Din next';
+    src: url('/myapp/fonts/din-next-lt-pro-bold-59fa0d5149473.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Din next';
+    src: url('/myapp/fonts/din-next-lt-pro-light-59f9bcb6633e7.otf') format('opentype');
+    font-weight: light;
+    font-style: normal;
+  }
+
+.background {
+    background-image: url('../public/ink/ink10_LQ.jpeg');
+    background-size: contain;
+    width: 100vw;
+    height: 290vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+.titleContainer {
+    margin-top: 10vh;
+}
+.titleClan {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    font-size: 6vh;
+    font-weight: 700;
+}
+
+.titleEmergent {
+    margin: 0;
+    padding: 0;
+    color: rgb(181, 181, 181);
+    font-family: 'Din next', sans-serif;
+    font-size: 6vh;
+    font-weight: 200;
+}
+
+.imgContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 4vh;
+}
+
+.modele {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    color: transparent;
+    font-size: 4vh;
+    margin-bottom: 4vh;  
+}
+
+.modele:hover .img {
+    opacity: 0.5;
+}
+
+.modele:hover .look{
+    opacity: 1;
+    color: white;
+}
+
+.look {
+    position: absolute;
+    transition-duration: 1s;
+}
+
+.img {
+    height: 80vh;
+    transition-duration: 1s;
+} 

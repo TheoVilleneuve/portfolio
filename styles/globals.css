@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;400;700&display=swap');
+@font-face {
+  font-family: 'Din next';
+  src: url('/myapp/fonts/din-next-lt-pro-bold-59fa0d5149473.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Din next';
+  src: url('/myapp/fonts/din-next-lt-pro-light-59f9bcb6633e7.otf') format('opentype');
+  font-weight: light;
+  font-style: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
