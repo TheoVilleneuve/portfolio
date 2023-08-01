@@ -8,10 +8,18 @@
     top: 0;
     width: 100vw;
     height: 12vh;
-    padding-left: 7%;
+    padding-left: 7vw;
+    padding-right: 7vw;
 }
 
 .logoVilleneuve {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 30vw;
     color: white;
     font-family: 'Din next', sans-serif;
     font-size: 4vh;
@@ -36,3 +44,24 @@
     font-weight: 700;
 }
 
+.title {
+    background-color: aqua;
+    flex: 1;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    align-self: center;
+    justify-self: center;
+}
+
+.menuContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: brown;
+    width: 30vw;
+    height: 100%;
+}

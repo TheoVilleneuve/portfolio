@@ -2,9 +2,10 @@ import styles from '../styles/Clan.module.css';
 import Header from '../components/Header';
 
 export default function ClanPage() {
+  const title = 'CLAN ÉMERGENT'
 return (
   <>
-    <Header/>        
+    <Header title={title}/>        
 
     <div className={styles.background}>            
       <h2 className={styles.titleContainer}>

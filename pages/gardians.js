@@ -4,7 +4,7 @@ import Modal from 'react-modal';
 import { useState, useEffect } from 'react';
 
 export default function GardiansPage() {
-
+  const title = 'GARDIANS'
   //Style de la modale
   const customStyles = {
     overlay: {
@@ -65,7 +65,7 @@ const imgBtns = gardiansImgs.map((data, i) => {
 
 return (
   <>
-    <Header/>
+    <Header title={title}/>
 
     <div className={styles.modele}>
       <img className={styles.gardianImg1} src={'/collection-gardians/gardians-edito45LQ.jpeg'} alt='Edito image'/>
