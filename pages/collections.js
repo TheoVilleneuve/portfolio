@@ -1,7 +1,7 @@
-import styles from "../styles/WhenIWasDesigner.module.css";
+import styles from "../styles/Collections.module.css";
 import Link from "next/link";
 
-export default function WhenIWasDesignerPage() {
+export default function Collections() {
   return (
     <div>
       <div className={styles.webPortfolio}>

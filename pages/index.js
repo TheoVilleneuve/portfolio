@@ -43,7 +43,7 @@ export default function Index() {
           }}> EN VOIR + :</h1>
           
           <div className={styles.btnContainer}>
-            <Link href="/whenIWasDesigner">
+            <Link href="/collections">
               <button className={styles.btn}>COLLECTIONS</button>
             </Link>
             <Link href="/clan">
