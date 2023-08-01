@@ -1,6 +1,7 @@
 import styles from "../styles/Index.module.css";
 import Header from "../components/Header";
 import Link from "next/link";
+import { margin } from "@mui/system";
 
 export default function Index() {
   return (
@@ -8,7 +9,9 @@ export default function Index() {
       <Header />
 
       <div className={styles.part1}>
+
         <div className={styles.leftContainer}>
+
           <div className={styles.logoImg}>
             <img
               src={"/logo-THEOVILLENEUVE.jpeg"}
@@ -20,28 +23,29 @@ export default function Index() {
               }}
             />
           </div>
-
-          <div className={styles.textContainer}>
-            <h1> DÉVELOPPEUR FULLSTACK</h1>
-            <h2>
-              FRONTEND : <br /> Javascript (React/React native), HTML, CSS
-            </h2>
-            <h2>
-              BACKEND : <br /> Express, MongoDB
-            </h2>
-          </div>
-          <Link href="/clan">
-            <button className={styles.btn2}>ME CONTACTER</button>
-          </Link>
         </div>
 
         <div className={styles.rightContainer}>
+        <h1
+            style={{
+              color: 'white',
+              width: '50%'
+            }}
+            > DÉVELOPPEUR FULLSTACK
+            </h1>
+          <h3
+            style={{
+              color: "white",
+              fontSize: '2.6vh',
+              width: '50%',
+              margin: 0
+            }}
+          >
+            Frontend : next.js/react/react native
+            <br/>
+            Backend : express/mongoDb
+          </h3>
 
-          <h1
-          style={{
-            color: "white",
-          }}> EN VOIR + :</h1>
-          
           <div className={styles.btnContainer}>
             <Link href="/collections">
               <button className={styles.btn}>COLLECTIONS</button>

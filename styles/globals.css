@@ -25,14 +25,40 @@ body {
 
 h1 {
   font-family: "Din next", sans-serif;
-  font-size: 3.4vh;
-  font-weight: 800;
+  font-size: 3.2vh;
+  font-weight: 600;
   margin: 0 0 2vh 0;
 }
 
 h2 {
   font-family: "Din next", sans-serif;
-  font-size: 2.5vh;
+  font-size: 2.3vh;
+  font-weight: 600;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Din next", sans-serif;
+  font-size: 3.4vh;
+  font-weight: 300;
+  margin-top: 2vh;
+}
+
+p {
+  font-family: "Din next", sans-serif;
+  font-size: 2.3vh;
+  font-weight: 400;
+  margin: 0;
+}
+
+button {
+  margin: 0 2vw;
+  width: 14vw;
+  height: 6vh;
+  border-radius: 8px;
+  font-family: "Din next", sans-serif;
+  font-size: 2vh;
   font-weight: 500;
-  margin: 0 0 1vh 0;
+  cursor: pointer;
+  transition-duration: 0.8s;
 }

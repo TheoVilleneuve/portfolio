@@ -12,7 +12,9 @@ export default function Collections() {
             <span className={styles.villeneuve}>VILLENEUVE</span>
           
         </div>
+        
     </Link>
+    <h3 className={styles.title}>- COLLECTIONS -</h3>
 
         <div className={styles.btnContainer}>
           <Link href="/tauromaquia">

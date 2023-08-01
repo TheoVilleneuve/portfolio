@@ -69,6 +69,11 @@
   font-weight: 700;
 }
 
+.title {
+  color: white;
+  margin-bottom: 70vh;
+}
+
 /* Affichage conditionné à la taille d'écran */
 @media screen and (max-width: 768px) {
 .logoVilleneuve {
