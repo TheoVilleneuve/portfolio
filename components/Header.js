@@ -3,9 +3,10 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
+import ProjectsMenu from "./ProjectsMenu";
+import CollectionsMenu from "./CollectionsMenu";
 
 export default function Header(props) {
-
   return (
     <div className={styles.header}>
       <Link href="/">
@@ -16,13 +17,28 @@ export default function Header(props) {
       </Link>
 
       <div className={styles.title}>
-        <h3 style={{
-            margin: 0
-        }}>{props.title}</h3>
+        <h3
+          style={{
+            margin: 0,
+          }}
+        >
+          {props.title}
+        </h3>
       </div>
 
       <div className={styles.menuContainer}>
-        <p>Test</p>
+        <CollectionsMenu />
+        <ProjectsMenu />
+        <p
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            width: "10vw",
+            color: "white",
+          }}
+        >
+          CONTACT
+        </p>
       </div>
     </div>
   );

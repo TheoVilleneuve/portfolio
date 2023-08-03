@@ -9,17 +9,17 @@
     width: 100vw;
     height: 12vh;
     padding-left: 7vw;
-    padding-right: 7vw;
+    padding-right: 2vw;
 }
 
 .logoVilleneuve {
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     height: 100%;
-    width: 30vw;
+    width: 35vw;
     color: white;
     font-family: 'Din next', sans-serif;
     font-size: 4vh;
@@ -45,7 +45,7 @@
 }
 
 .title {
-    background-color: aqua;
+    /* background-color: aqua; */
     flex: 1;
     height: 100%;
     color: white;
@@ -61,7 +61,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: brown;
-    width: 30vw;
+    /* background-color: brown; */
+    width: 40vw;
     height: 100%;
 }
