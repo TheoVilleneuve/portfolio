@@ -27,8 +27,9 @@ export default function Header(props) {
       </div>
 
       <div className={styles.menuContainer}>
-        <CollectionsMenu />
         <ProjectsMenu />
+        <CollectionsMenu />
+        
         <p
           style={{
             display: "flex",
