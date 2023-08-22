@@ -5,16 +5,13 @@ export default function Collections() {
   return (
     <div>
       <div className={styles.webPortfolio}>
-      <Link href="/">
-        <div className={styles.logoVilleneuve}>
-          
+        <Link href="/">
+          <div className={styles.logoVilleneuve}>
             <span className={styles.theo}>THEO</span>
             <span className={styles.villeneuve}>VILLENEUVE</span>
-          
-        </div>
-        
-    </Link>
-    <h3 className={styles.title}>- COLLECTIONS -</h3>
+          </div>
+        </Link>
+        <h3 className={styles.title}>- COLLECTIONS -</h3>
 
         <div className={styles.btnContainer}>
           <Link href="/tauromaquia">

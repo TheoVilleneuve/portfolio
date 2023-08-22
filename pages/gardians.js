@@ -9,10 +9,10 @@ export default function GardiansPage() {
   const customStyles = {
     overlay: {
         position: 'absolute',
-        top: 0,
+        top: 20,
         left: 0,
         right: 0,
-        bottom: 0,
+        bottom: -60,
         backgroundColor: 'none',
       },
     content: {

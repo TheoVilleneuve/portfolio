@@ -45,6 +45,11 @@ export default function CollectionsMenu() {
           "aria-labelledby": "basic-button",
         }}
       >
+        <Link href="/collections">
+          <MenuItem onClick={handleClose}>
+            <p>Toutes les collections</p>
+          </MenuItem>
+        </Link>
         <Link href="/tauromaquia">
           <MenuItem onClick={handleClose}>
             <p>Tauromaquia</p>

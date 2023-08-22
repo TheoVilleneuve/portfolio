@@ -45,7 +45,7 @@ export default function ProjectsMenu() {
           "aria-labelledby": "basic-button",
         }}
       >
-        <Link href="/tauromaquia">
+        <Link href="/projects">
           <MenuItem onClick={handleClose}>
             <p>Tous les projets</p>
           </MenuItem>

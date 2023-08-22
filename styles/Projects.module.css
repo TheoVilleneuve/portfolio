@@ -1,34 +1,11 @@
 .webPortfolio {
-  background-image: url("../public/ink/ink7_LQ.jpeg");
-  background-size: cover;
+  background-color: rgb(33, 32, 32);
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-}
-
-.btnContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 50vw;
-  margin-bottom: 70vh;
-}
-
-.btn {
-  background-color: transparent;
-  color: rgb(181, 181, 181);
-  border: 1px solid transparent;
-  border-radius: 8px;
-  cursor: pointer;
-  transition-duration: 1s;
-}
-
-.btn:hover {
-  border: 1px solid rgb(181, 181, 181);
-  color: rgb(83, 83, 83);
 }
 
 .logoVilleneuve {
@@ -61,6 +38,12 @@
 .title {
   color: white;
   margin-bottom: 70vh;
+}
+
+.project {
+    background-color: brown;
+    width: 100vw;
+    
 }
 
 /* Affichage conditionné à la taille d'écran */
