@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;400;700&display=swap");
 @font-face {
   font-family: "Din next";
   src: url("/myapp/fonts/din-next-lt-pro-bold-59fa0d5149473.otf")
@@ -12,7 +12,7 @@
     format("opentype");
   font-weight: light;
   font-style: normal;
-}
+} */
 
 .part1 {
   height: 100vh;
@@ -47,7 +47,7 @@
 }
 
 .rightContainer {
-  background-image: url("../public/ink/ink7_LQ.jpeg");
+  background-image: url('../public/ink/ink7_LQ.jpeg');
   display: flex;
   flex-direction: column;
   height: 100%;
