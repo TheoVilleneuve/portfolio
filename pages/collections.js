@@ -3,27 +3,27 @@ import Link from "next/link";
 
 export default function Collections() {
   return (
-    <div>
-      <div className={styles.webPortfolio}>
+    <div className={styles.background}>
+      <div className={styles.titleContainer}>
         <Link href="/">
           <div className={styles.logoVilleneuve}>
             <span className={styles.theo}>THEO</span>
             <span className={styles.villeneuve}>VILLENEUVE</span>
           </div>
         </Link>
-        <h3 className={styles.title}>- COLLECTIONS -</h3>
+        <h3 style={{color: 'white', margin: 0, padding: 0, marginTop: '3%'}}>- COLLECTIONS -</h3>
+      </div>
 
-        <div className={styles.btnContainer}>
-          <Link href="/tauromaquia">
-            <button className={styles.btn}>TAUROMAQUIA</button>
-          </Link>
-          <Link href="/clan">
-            <button className={styles.btn}>CLAN ÉMERGENT</button>
-          </Link>
-          <Link href="/gardians">
-            <button className={styles.btn}>GARDIANS</button>
-          </Link>
-        </div>
+      <div className={styles.btnContainer}>
+        <Link href="/tauromaquia">
+          <button className={styles.btn}>TAUROMAQUIA</button>
+        </Link>
+        <Link href="/clan">
+          <button className={styles.btn}>CLAN ÉMERGENT</button>
+        </Link>
+        <Link href="/gardians">
+          <button className={styles.btn}>GARDIANS</button>
+        </Link>
       </div>
     </div>
   );
