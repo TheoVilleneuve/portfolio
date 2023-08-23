@@ -1,5 +1,6 @@
 import styles from "../styles/Collections.module.css";
 import Link from "next/link";
+import BrandLogo from "../components/BrandLogo";
 
 export default function Collections() {
   return (
@@ -7,10 +8,10 @@ export default function Collections() {
       <div className={styles.titleContainer}>
         <Link href="/">
           <div className={styles.logoVilleneuve}>
-            <span className={styles.theo}>THEO</span>
-            <span className={styles.villeneuve}>VILLENEUVE</span>
+            <BrandLogo/>
           </div>
         </Link>
+
         <h3 style={{color: 'white', margin: 0, padding: 0, marginTop: '3%'}}>- COLLECTIONS -</h3>
       </div>
 

@@ -1,15 +1,56 @@
 import styles from '../styles/Home.module.css';
-import Header from './Header';
-import Footer from './Footer';
+import Link from 'next/link';
 
 function Home() {
   return (
-    <div>
-      <div className={styles.webPortfolio}>
-        <div className={styles.header}><Header/></div>
-        <div className={styles.footer}><Footer/></div>
-      </div>      
-    </div>
+    <div className={styles.part1}>
+
+        <div className={styles.leftContainer}>
+
+          <div className={styles.logoImg}>
+            <img
+              src={"/logo-THEOVILLENEUVE.jpeg"}
+              alt="logo THEOVILLENEUVE"
+              style={{
+                objectFit: "cover",
+                width: "100%",
+                height: "100%",
+              }}
+            />
+          </div>
+        </div>
+
+        <div className={styles.rightContainer}>
+        <h1
+            style={{
+              color: 'white',
+              width: '50%'
+            }}
+            > DÉVELOPPEUR FULLSTACK
+            </h1>
+          <h3
+            style={{
+              color: "white",
+              fontSize: '2.6vh',
+              width: '50%',
+              margin: 0
+            }}
+          >
+            Frontend : next.js/react/react native
+            <br/>
+            Backend : express/mongoDb
+          </h3>
+
+          <div className={styles.btnContainer}>
+            <Link href="/collections">
+              <button className={styles.btn}>COLLECTIONS</button>
+            </Link>
+            <Link href="/clan">
+              <button className={styles.btn}>PROJETS</button>
+            </Link>
+          </div>
+        </div>
+      </div>
   );
 }
 

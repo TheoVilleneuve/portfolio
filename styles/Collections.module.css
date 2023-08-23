@@ -43,30 +43,9 @@
 
 .logoVilleneuve {
   color: white;
-  font-family: 'Din next', sans-serif;
   font-size: 7vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border: none;
   cursor: pointer;
-  transition-duration: 1s;
 }
-
-.theo {
-  margin: 0;
-  padding: 0;
-  font-weight: 200;
-}
-
-.villeneuve {
-  margin: 0;
-  padding: 0;
-  font-size: 7vh;
-  font-weight: 700;
-}
-
 
 /* Affichage conditionné à la taille d'écran */
 @media screen and (max-width: 768px) {
